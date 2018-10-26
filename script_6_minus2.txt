@@ -1,0 +1,122 @@
+add wave -position insertpoint  \
+sim:/mul/muland \
+sim:/mul/muler \
+sim:/mul/f \
+sim:/mul/t1 \
+sim:/mul/t2 \
+sim:/mul/t3 \
+sim:/mul/t4 \
+sim:/mul/t5 \
+sim:/mul/t6 \
+sim:/mul/t0 \
+sim:/mul/t7 \
+sim:/mul/k1 \
+sim:/mul/k2
+add wave -position insertpoint  \
+sim:/mul/partial_1/muland \
+sim:/mul/partial_1/muler \
+sim:/mul/partial_1/p0 \
+sim:/mul/partial_1/p1 \
+sim:/mul/partial_1/p2 \
+sim:/mul/partial_1/p3 \
+sim:/mul/partial_1/p4 \
+sim:/mul/partial_1/p5 \
+sim:/mul/partial_1/p6 \
+sim:/mul/partial_1/p7
+add wave -position insertpoint  \
+sim:/mul/tree_1/p0 \
+sim:/mul/tree_1/p1 \
+sim:/mul/tree_1/p2 \
+sim:/mul/tree_1/p3 \
+sim:/mul/tree_1/p4 \
+sim:/mul/tree_1/p5 \
+sim:/mul/tree_1/p6 \
+sim:/mul/tree_1/p7 \
+sim:/mul/tree_1/fp1 \
+sim:/mul/tree_1/fp2 \
+sim:/mul/tree_1/p_row0 \
+sim:/mul/tree_1/p_row1 \
+sim:/mul/tree_1/p_row2 \
+sim:/mul/tree_1/p_row3 \
+sim:/mul/tree_1/p_row4 \
+sim:/mul/tree_1/p_row5 \
+sim:/mul/tree_1/p_row6 \
+sim:/mul/tree_1/p_row7 \
+sim:/mul/tree_1/l2_row0 \
+sim:/mul/tree_1/l2_row1 \
+sim:/mul/tree_1/l2_row2 \
+sim:/mul/tree_1/l2_row3 \
+sim:/mul/tree_1/l2_row4 \
+sim:/mul/tree_1/l2_row5 \
+sim:/mul/tree_1/l3_row0 \
+sim:/mul/tree_1/l3_row1 \
+sim:/mul/tree_1/l3_row2 \
+sim:/mul/tree_1/l3_row3 \
+sim:/mul/tree_1/l4_row0 \
+sim:/mul/tree_1/l4_row1 \
+sim:/mul/tree_1/l4_row2
+force -freeze sim:/mul/muler 11111110 0
+force -freeze sim:/mul/muland 00000110 0
+run
+
+
+add wave -position insertpoint  \
+sim:/mul/muland \
+sim:/mul/muler \
+sim:/mul/f \
+sim:/mul/t1 \
+sim:/mul/t2 \
+sim:/mul/t3 \
+sim:/mul/t4 \
+sim:/mul/t5 \
+sim:/mul/t6 \
+sim:/mul/t0 \
+sim:/mul/t7 \
+sim:/mul/k1 \
+sim:/mul/k2
+add wave -position insertpoint  \
+sim:/mul/partial_1/muland \
+sim:/mul/partial_1/muler \
+sim:/mul/partial_1/p0 \
+sim:/mul/partial_1/p1 \
+sim:/mul/partial_1/p2 \
+sim:/mul/partial_1/p3 \
+sim:/mul/partial_1/p4 \
+sim:/mul/partial_1/p5 \
+sim:/mul/partial_1/p6 \
+sim:/mul/partial_1/p7
+add wave -position insertpoint  \
+sim:/mul/tree_1/p0 \
+sim:/mul/tree_1/p1 \
+sim:/mul/tree_1/p2 \
+sim:/mul/tree_1/p3 \
+sim:/mul/tree_1/p4 \
+sim:/mul/tree_1/p5 \
+sim:/mul/tree_1/p6 \
+sim:/mul/tree_1/p7 \
+sim:/mul/tree_1/fp1 \
+sim:/mul/tree_1/fp2 \
+sim:/mul/tree_1/p_row0 \
+sim:/mul/tree_1/p_row1 \
+sim:/mul/tree_1/p_row2 \
+sim:/mul/tree_1/p_row3 \
+sim:/mul/tree_1/p_row4 \
+sim:/mul/tree_1/p_row5 \
+sim:/mul/tree_1/p_row6 \
+sim:/mul/tree_1/p_row7 \
+sim:/mul/tree_1/l2_row0 \
+sim:/mul/tree_1/l2_row1 \
+sim:/mul/tree_1/l2_row2 \
+sim:/mul/tree_1/l2_row3 \
+sim:/mul/tree_1/l2_row4 \
+sim:/mul/tree_1/l2_row5 \
+sim:/mul/tree_1/l3_row0 \
+sim:/mul/tree_1/l3_row1 \
+sim:/mul/tree_1/l3_row2 \
+sim:/mul/tree_1/l3_row3 \
+sim:/mul/tree_1/l4_row0 \
+sim:/mul/tree_1/l4_row1 \
+sim:/mul/tree_1/l4_row2
+force -freeze sim:/mul/muland 11111110 0
+force -freeze sim:/mul/muler 00000110 0
+run

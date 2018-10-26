@@ -1,0 +1,799 @@
+
+**** 07/04/16 22:58:58 ******* PSpice 10.5.0 (Jan 2005) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-mul"  [ C:\OrCAD_Data\wallace_mul\wallace_mul-pspicefiles\schematic1\mul.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "mul.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\OrCAD\OrCAD_10.5\tools\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 80us 0 
+.PROBE V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source WALLACE_MUL
+U_mul_DSTM3         STIM(8,11111111)
++ $G_DPWR $G_DGND
++ mul_P5T7 mul_P5T6 mul_P5T5 mul_P5T4 mul_P5T3 mul_P5T2 mul_P5T1 mul_P5T0 
++ IO_STM
++ IO_LEVEL=0
++  0s 10000110  
+U_mul_DSTM2         STIM(8,11111111)
++ $G_DPWR $G_DGND
++ mul_P6T7 mul_P6T6 mul_P6T5 mul_P6T4 mul_P6T3 mul_P6T2 mul_P6T1 mul_P6T0 
++ IO_STM
++ IO_LEVEL=0
++  0s 10000110  
+U_mul_DSTM8         STIM(8,11111111)
++ $G_DPWR $G_DGND
++ mul_P4T7 mul_P4T6 mul_P4T5 mul_P4T4 mul_P4T3 mul_P4T2 mul_P4T1 mul_P4T0 
++ IO_STM
++ IO_LEVEL=0
++  0s 10000110  
+U_mul_DSTM1         STIM(8,11111111)
++ $G_DPWR $G_DGND
++ mul_P7T8 mul_P7T7 mul_P7T6 mul_P7T5 mul_P7T4 mul_P7T3 mul_P7T2 mul_P7T1 
++ IO_STM
++ IO_LEVEL=0
++  0s 00000000  
+U_mul_DSTM7         STIM(8,11111111)
++ $G_DPWR $G_DGND
++ mul_P3T7 mul_P3T6 mul_P3T5 mul_P3T4 mul_P3T3 mul_P3T2 mul_P3T1 mul_P3T0 
++ IO_STM
++ IO_LEVEL=0
++  0s 10000110  
+U_mul_DSTM6         STIM(8,11111111)
++ $G_DPWR $G_DGND
++ mul_P2T7 mul_P2T6 mul_P2T5 mul_P2T4 mul_P2T3 mul_P2T2 mul_P2T1 mul_P2T0 
++ IO_STM
++ IO_LEVEL=0
++  0s 10000110  
+X_mul_tree_f_adder_24_h_adder_0_U2         mul_tree_N33659 mul_tree_N173119
++  mul_tree_f_adder_24_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_24_h_adder_0_U1         mul_tree_N33659 mul_tree_N173119
++  mul_tree_f_adder_24_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_24_h_adder_1_U2         mul_tree_N32007
++  mul_tree_f_adder_24_N20001 mul_tree_f_adder_24_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_24_h_adder_1_U1         mul_tree_N32007
++  mul_tree_f_adder_24_N20001 mul_tree_N219021 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_24_U1         mul_tree_f_adder_24_N20549
++  mul_tree_f_adder_24_N20524 mul_tree_N221019 $G_DPWR $G_DGND OR2
+X_mul_tree_h_adder_3_U2         mul_tree_N28273 mul_tree_N26061
++  mul_tree_N216063  $G_DPWR $G_DGND AND2
+X_mul_tree_h_adder_3_U1         mul_tree_N28273 mul_tree_N26061 mul_tree_N36254
++  $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_2_h_adder_0_U2         mul_tree_N86745 mul_tree_N86745
++  mul_tree_f_adder_2_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_2_h_adder_0_U1         mul_tree_N86745 mul_tree_N86745
++  mul_tree_f_adder_2_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_2_h_adder_1_U2         mul_tree_N86261
++  mul_tree_f_adder_2_N20001 mul_tree_f_adder_2_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_2_h_adder_1_U1         mul_tree_N86261
++  mul_tree_f_adder_2_N20001 mul_tree_N191782 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_2_U1         mul_tree_f_adder_2_N20549
++  mul_tree_f_adder_2_N20524 mul_tree_N189711 $G_DPWR $G_DGND OR2
+X_mul_tree_f_adder_1_h_adder_0_U2         mul_tree_N88209 mul_tree_N87719
++  mul_tree_f_adder_1_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_1_h_adder_0_U1         mul_tree_N88209 mul_tree_N87719
++  mul_tree_f_adder_1_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_1_h_adder_1_U2         mul_tree_N88701
++  mul_tree_f_adder_1_N20001 mul_tree_f_adder_1_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_1_h_adder_1_U1         mul_tree_N88701
++  mul_tree_f_adder_1_N20001 mul_tree_N186980 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_1_U1         mul_tree_f_adder_1_N20549
++  mul_tree_f_adder_1_N20524 mul_tree_N117483 $G_DPWR $G_DGND OR2
+X_mul_tree_h_adder_2_U2         mul_tree_N151438 mul_tree_N150831
++  mul_tree_N116030  $G_DPWR $G_DGND AND2
+X_mul_tree_h_adder_2_U1         mul_tree_N151438 mul_tree_N150831
++  mul_tree_N114942 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_10_h_adder_0_U2         mul_tree_N153270 mul_tree_N150226
++  mul_tree_f_adder_10_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_10_h_adder_0_U1         mul_tree_N153270 mul_tree_N150226
++  mul_tree_f_adder_10_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_10_h_adder_1_U2         mul_tree_N152047
++  mul_tree_f_adder_10_N20001 mul_tree_f_adder_10_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_10_h_adder_1_U1         mul_tree_N152047
++  mul_tree_f_adder_10_N20001 mul_tree_N190400 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_10_U1         mul_tree_f_adder_10_N20549
++  mul_tree_f_adder_10_N20524 mul_tree_N305862 $G_DPWR $G_DGND OR2
+X_mul_tree_f_adder_11_h_adder_0_U2         mul_tree_N149623 mul_tree_N149022
++  mul_tree_f_adder_11_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_11_h_adder_0_U1         mul_tree_N149623 mul_tree_N149022
++  mul_tree_f_adder_11_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_11_h_adder_1_U2         mul_tree_N153884
++  mul_tree_f_adder_11_N20001 mul_tree_f_adder_11_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_11_h_adder_1_U1         mul_tree_N153884
++  mul_tree_f_adder_11_N20001 mul_tree_N193172 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_11_U1         mul_tree_f_adder_11_N20549
++  mul_tree_f_adder_11_N20524 mul_tree_N329377 $G_DPWR $G_DGND OR2
+X_mul_tree_h_adder_1_U2         mul_tree_N143302 mul_tree_N142717
++  mul_tree_N226585  $G_DPWR $G_DGND AND2
+X_mul_tree_h_adder_1_U1         mul_tree_N143302 mul_tree_N142717
++  mul_tree_N174869 $G_DPWR $G_DGND XOR
+X_mul_tree_h_adder_14_U2         mul_tree_N91687 mul_tree_N92191
++  mul_tree_N42469  $G_DPWR $G_DGND AND2
+X_mul_tree_h_adder_14_U1         mul_tree_N91687 mul_tree_N92191
++  mul_tree_N42095 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_12_h_adder_0_U2         mul_tree_N148423 mul_tree_N147826
++  mul_tree_f_adder_12_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_12_h_adder_0_U1         mul_tree_N148423 mul_tree_N147826
++  mul_tree_f_adder_12_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_12_h_adder_1_U2         mul_tree_N155525
++  mul_tree_f_adder_12_N20001 mul_tree_f_adder_12_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_12_h_adder_1_U1         mul_tree_N155525
++  mul_tree_f_adder_12_N20001 mul_tree_N198094 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_12_U1         mul_tree_f_adder_12_N20549
++  mul_tree_f_adder_12_N20524 mul_tree_N168998 $G_DPWR $G_DGND OR2
+X_mul_tree_f_adder_13_h_adder_0_U2         mul_tree_N147231 mul_tree_N146243
++  mul_tree_f_adder_13_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_13_h_adder_0_U1         mul_tree_N147231 mul_tree_N146243
++  mul_tree_f_adder_13_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_13_h_adder_1_U2         mul_tree_N156764
++  mul_tree_f_adder_13_N20001 mul_tree_f_adder_13_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_13_h_adder_1_U1         mul_tree_N156764
++  mul_tree_f_adder_13_N20001 mul_tree_N208922 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_13_U1         mul_tree_f_adder_13_N20549
++  mul_tree_f_adder_13_N20524 mul_tree_N167069 $G_DPWR $G_DGND OR2
+X_mul_tree_f_adder_0_h_adder_0_U2         mul_tree_N91185 mul_tree_N90685
++  mul_tree_f_adder_0_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_0_h_adder_0_U1         mul_tree_N91185 mul_tree_N90685
++  mul_tree_f_adder_0_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_0_h_adder_1_U2         mul_tree_N89690
++  mul_tree_f_adder_0_N20001 mul_tree_f_adder_0_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_0_h_adder_1_U1         mul_tree_N89690
++  mul_tree_f_adder_0_N20001 mul_tree_N109928 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_0_U1         mul_tree_f_adder_0_N20549
++  mul_tree_f_adder_0_N20524 mul_tree_N106739 $G_DPWR $G_DGND OR2
+X_mul_tree_f_adder_14_h_adder_0_U2         mul_tree_N145652 mul_tree_N145063
++  mul_tree_f_adder_14_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_14_h_adder_0_U1         mul_tree_N145652 mul_tree_N145063
++  mul_tree_f_adder_14_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_14_h_adder_1_U2         mul_tree_N158009
++  mul_tree_f_adder_14_N20001 mul_tree_f_adder_14_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_14_h_adder_1_U1         mul_tree_N158009
++  mul_tree_f_adder_14_N20001 mul_tree_N182445 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_14_U1         mul_tree_f_adder_14_N20549
++  mul_tree_f_adder_14_N20524 mul_tree_N159260 $G_DPWR $G_DGND OR2
+X_mul_tree_f_adder_15_h_adder_0_U2         mul_tree_N104108 mul_tree_N105864
++  mul_tree_f_adder_15_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_15_h_adder_0_U1         mul_tree_N104108 mul_tree_N105864
++  mul_tree_f_adder_15_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_15_h_adder_1_U2         mul_tree_N106739
++  mul_tree_f_adder_15_N20001 mul_tree_f_adder_15_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_15_h_adder_1_U1         mul_tree_N106739
++  mul_tree_f_adder_15_N20001 mul_tree_N111000 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_15_U1         mul_tree_f_adder_15_N20549
++  mul_tree_f_adder_15_N20524 mul_tree_N94230 $G_DPWR $G_DGND OR2
+X_mul_tree_f_adder_16_h_adder_0_U2         mul_tree_N109928 mul_tree_N117483
++  mul_tree_f_adder_16_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_16_h_adder_0_U1         mul_tree_N109928 mul_tree_N117483
++  mul_tree_f_adder_16_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_16_h_adder_1_U2         mul_tree_N116030
++  mul_tree_f_adder_16_N20001 mul_tree_f_adder_16_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_16_h_adder_1_U1         mul_tree_N116030
++  mul_tree_f_adder_16_N20001 mul_tree_N295779 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_16_U1         mul_tree_f_adder_16_N20549
++  mul_tree_f_adder_16_N20524 mul_tree_N300789 $G_DPWR $G_DGND OR2
+X_mul_tree_f_adder_17_h_adder_0_U2         mul_tree_N186980 mul_tree_N114942
++  mul_tree_f_adder_17_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_17_h_adder_0_U1         mul_tree_N186980 mul_tree_N114942
++  mul_tree_f_adder_17_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_17_h_adder_1_U2         mul_tree_N189711
++  mul_tree_f_adder_17_N20001 mul_tree_f_adder_17_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_17_h_adder_1_U1         mul_tree_N189711
++  mul_tree_f_adder_17_N20001 mul_tree_N297441 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_17_U1         mul_tree_f_adder_17_N20549
++  mul_tree_f_adder_17_N20524 mul_tree_N303318 $G_DPWR $G_DGND OR2
+X_mul_tree_h_adder_13_U2         mul_tree_N369890 mul_tree_N367094
++  mul_tree_N48250  $G_DPWR $G_DGND AND2
+X_mul_tree_h_adder_13_U1         mul_tree_N369890 mul_tree_N367094
++  mul_tree_N41353 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_18_h_adder_0_U2         mul_tree_N191782 mul_tree_N190400
++  mul_tree_f_adder_18_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_18_h_adder_0_U1         mul_tree_N191782 mul_tree_N190400
++  mul_tree_f_adder_18_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_18_h_adder_1_U2         mul_tree_N86261
++  mul_tree_f_adder_18_N20001 mul_tree_f_adder_18_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_18_h_adder_1_U1         mul_tree_N86261
++  mul_tree_f_adder_18_N20001 mul_tree_N299111 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_18_U1         mul_tree_f_adder_18_N20549
++  mul_tree_f_adder_18_N20524 mul_tree_N308159 $G_DPWR $G_DGND OR2
+X_mul_tree_f_adder_19_h_adder_0_U2         mul_tree_N194570 mul_tree_N193172
++  mul_tree_f_adder_19_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_19_h_adder_0_U1         mul_tree_N194570 mul_tree_N193172
++  mul_tree_f_adder_19_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_19_h_adder_1_U2         mul_tree_N85297
++  mul_tree_f_adder_19_N20001 mul_tree_f_adder_19_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_19_h_adder_1_U1         mul_tree_N85297
++  mul_tree_f_adder_19_N20001 mul_tree_N275938 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_19_U1         mul_tree_f_adder_19_N20549
++  mul_tree_f_adder_19_N20524 mul_tree_N309015 $G_DPWR $G_DGND OR2
+X_mul_tree_h_adder_12_U2         mul_tree_N362467 mul_tree_N364313
++  mul_tree_N47457  $G_DPWR $G_DGND AND2
+X_mul_tree_h_adder_12_U1         mul_tree_N362467 mul_tree_N364313
++  mul_tree_N40985 $G_DPWR $G_DGND XOR
+X_mul_tree_h_adder_11_U2         mul_tree_N375526 mul_tree_N371764
++  mul_tree_N46670  $G_DPWR $G_DGND AND2
+X_mul_tree_h_adder_11_U1         mul_tree_N375526 mul_tree_N371764
++  mul_tree_N40619 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_38_h_adder_0_U2         mul_tree_N343634 mul_tree_N359712
++  mul_tree_f_adder_38_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_38_h_adder_0_U1         mul_tree_N343634 mul_tree_N359712
++  mul_tree_f_adder_38_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_38_h_adder_1_U2         mul_tree_N345432
++  mul_tree_f_adder_38_N20001 mul_tree_f_adder_38_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_38_h_adder_1_U1         mul_tree_N345432
++  mul_tree_f_adder_38_N20001 mul_tree_N40255 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_38_U1         mul_tree_f_adder_38_N20549
++  mul_tree_f_adder_38_N20524 mul_tree_N46415 $G_DPWR $G_DGND OR2
+X_mul_tree_h_adder_10_U2         mul_tree_N55264 mul_tree_N53989
++  mul_tree_N44230  $G_DPWR $G_DGND AND2
+X_mul_tree_h_adder_10_U1         mul_tree_N55264 mul_tree_N53989
++  mul_tree_N39175 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_37_h_adder_0_U2         mul_tree_N338283 mul_tree_N356062
++  mul_tree_f_adder_37_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_37_h_adder_0_U1         mul_tree_N338283 mul_tree_N356062
++  mul_tree_f_adder_37_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_37_h_adder_1_U2         mul_tree_N340061
++  mul_tree_f_adder_37_N20001 mul_tree_f_adder_37_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_37_h_adder_1_U1         mul_tree_N340061
++  mul_tree_f_adder_37_N20001 mul_tree_N39893 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_37_U1         mul_tree_f_adder_37_N20549
++  mul_tree_f_adder_37_N20524 mul_tree_N45248 $G_DPWR $G_DGND OR2
+X_mul_tree_h_adder_9_U2         mul_tree_N53147 mul_tree_N51899 mul_tree_N38586
++   $G_DPWR $G_DGND AND2
+X_mul_tree_h_adder_9_U1         mul_tree_N53147 mul_tree_N51899 mul_tree_N37292
++  $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_36_h_adder_0_U2         mul_tree_N58594 mul_tree_N60805
++  mul_tree_f_adder_36_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_36_h_adder_0_U1         mul_tree_N58594 mul_tree_N60805
++  mul_tree_f_adder_36_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_36_h_adder_1_U2         mul_tree_N56124
++  mul_tree_f_adder_36_N20001 mul_tree_f_adder_36_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_36_h_adder_1_U1         mul_tree_N56124
++  mul_tree_f_adder_36_N20001 mul_tree_N39533 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_36_U1         mul_tree_f_adder_36_N20549
++  mul_tree_f_adder_36_N20524 mul_tree_N44479 $G_DPWR $G_DGND OR2
+X_mul_tree_f_adder_25_h_adder_0_U2         mul_tree_N172029 mul_tree_N168998
++  mul_tree_f_adder_25_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_25_h_adder_0_U1         mul_tree_N172029 mul_tree_N168998
++  mul_tree_f_adder_25_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_25_h_adder_1_U2         mul_tree_N165365
++  mul_tree_f_adder_25_N20001 mul_tree_f_adder_25_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_25_h_adder_1_U1         mul_tree_N165365
++  mul_tree_f_adder_25_N20001 mul_tree_N277564 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_25_U1         mul_tree_f_adder_25_N20549
++  mul_tree_f_adder_25_N20524 mul_tree_N359712 $G_DPWR $G_DGND OR2
+X_mul_tree_f_adder_29_h_adder_0_U2         mul_tree_N297441 mul_tree_N305862
++  mul_tree_f_adder_29_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_29_h_adder_0_U1         mul_tree_N297441 mul_tree_N305862
++  mul_tree_f_adder_29_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_29_h_adder_1_U2         mul_tree_N308159
++  mul_tree_f_adder_29_N20001 mul_tree_f_adder_29_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_29_h_adder_1_U1         mul_tree_N308159
++  mul_tree_f_adder_29_N20001 mul_tree_N375526 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_29_U1         mul_tree_f_adder_29_N20549
++  mul_tree_f_adder_29_N20524 mul_tree_N364313 $G_DPWR $G_DGND OR2
+X_mul_tree_h_adder_0_U2         mul_tree_N25140 mul_tree_N24837 mul_tree_N26061
++   $G_DPWR $G_DGND AND2
+X_mul_tree_h_adder_0_U1         mul_tree_N25140 mul_tree_N24837 mul_tree_N25752
++  $G_DPWR $G_DGND XOR
+X_mul_tree_h_adder_8_U2         mul_tree_N51075 mul_tree_N49854 mul_tree_N37996
++   $G_DPWR $G_DGND AND2
+X_mul_tree_h_adder_8_U1         mul_tree_N51075 mul_tree_N49854 mul_tree_N36944
++  $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_26_h_adder_0_U2         mul_tree_N170942 mul_tree_N167069
++  mul_tree_f_adder_26_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_26_h_adder_0_U1         mul_tree_N170942 mul_tree_N167069
++  mul_tree_f_adder_26_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_26_h_adder_1_U2         mul_tree_N164094
++  mul_tree_f_adder_26_N20001 mul_tree_f_adder_26_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_26_h_adder_1_U1         mul_tree_N164094
++  mul_tree_f_adder_26_N20001 mul_tree_N254078 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_26_U1         mul_tree_f_adder_26_N20549
++  mul_tree_f_adder_26_N20524 mul_tree_N356062 $G_DPWR $G_DGND OR2
+X_mul_tree_f_adder_30_h_adder_0_U2         mul_tree_N299111 mul_tree_N329377
++  mul_tree_f_adder_30_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_30_h_adder_0_U1         mul_tree_N299111 mul_tree_N329377
++  mul_tree_f_adder_30_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_30_h_adder_1_U2         mul_tree_N309015
++  mul_tree_f_adder_30_N20001 mul_tree_f_adder_30_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_30_h_adder_1_U1         mul_tree_N309015
++  mul_tree_f_adder_30_N20001 mul_tree_N343634 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_30_U1         mul_tree_f_adder_30_N20549
++  mul_tree_f_adder_30_N20524 mul_tree_N371764 $G_DPWR $G_DGND OR2
+X_mul_tree_f_adder_35_h_adder_0_U2         mul_tree_N93208 mul_tree_N94230
++  mul_tree_f_adder_35_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_35_h_adder_0_U1         mul_tree_N93208 mul_tree_N94230
++  mul_tree_f_adder_35_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_35_h_adder_1_U2         mul_tree_N101846
++  mul_tree_f_adder_35_N20001 mul_tree_f_adder_35_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_35_h_adder_1_U1         mul_tree_N101846
++  mul_tree_f_adder_35_N20001 mul_tree_N41723 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_35_U1         mul_tree_f_adder_35_N20549
++  mul_tree_f_adder_35_N20524 mul_tree_N49049 $G_DPWR $G_DGND OR2
+X_mul_tree_f_adder_4_h_adder_0_U2         mul_tree_N69392 mul_tree_N69392
++  mul_tree_f_adder_4_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_4_h_adder_0_U1         mul_tree_N69392 mul_tree_N69392
++  mul_tree_f_adder_4_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_4_h_adder_1_U2         mul_tree_N70326
++  mul_tree_f_adder_4_N20001 mul_tree_f_adder_4_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_4_h_adder_1_U1         mul_tree_N70326
++  mul_tree_f_adder_4_N20001 mul_tree_N195976 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_4_U1         mul_tree_f_adder_4_N20549
++  mul_tree_f_adder_4_N20524 mul_tree_N85297 $G_DPWR $G_DGND OR2
+X_mul_tree_h_adder_7_U2         mul_tree_N223266 mul_tree_N221019
++  mul_tree_N51899  $G_DPWR $G_DGND AND2
+X_mul_tree_h_adder_7_U1         mul_tree_N223266 mul_tree_N221019
++  mul_tree_N51075 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_27_h_adder_0_U2         mul_tree_N111000 mul_tree_N300789
++  mul_tree_f_adder_27_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_27_h_adder_0_U1         mul_tree_N111000 mul_tree_N300789
++  mul_tree_f_adder_27_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_27_h_adder_1_U2         mul_tree_N311589
++  mul_tree_f_adder_27_N20001 mul_tree_f_adder_27_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_27_h_adder_1_U1         mul_tree_N311589
++  mul_tree_f_adder_27_N20001 mul_tree_N369890 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_27_U1         mul_tree_f_adder_27_N20549
++  mul_tree_f_adder_27_N20524 mul_tree_N101846 $G_DPWR $G_DGND OR2
+X_mul_tree_f_adder_5_h_adder_0_U2         mul_tree_N68164 mul_tree_N68164
++  mul_tree_f_adder_5_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_5_h_adder_0_U1         mul_tree_N68164 mul_tree_N68164
++  mul_tree_f_adder_5_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_5_h_adder_1_U2         mul_tree_N67704
++  mul_tree_f_adder_5_N20001 mul_tree_f_adder_5_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_5_h_adder_1_U1         mul_tree_N67704
++  mul_tree_f_adder_5_N20001 mul_tree_N210390 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_5_U1         mul_tree_f_adder_5_N20549
++  mul_tree_f_adder_5_N20524 mul_tree_N70326 $G_DPWR $G_DGND OR2
+X_mul_tree_f_adder_31_h_adder_0_U2         mul_tree_N275938 mul_tree_N277564
++  mul_tree_f_adder_31_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_31_h_adder_0_U1         mul_tree_N275938 mul_tree_N277564
++  mul_tree_f_adder_31_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_31_h_adder_1_U2         mul_tree_N286655
++  mul_tree_f_adder_31_N20001 mul_tree_f_adder_31_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_31_h_adder_1_U1         mul_tree_N286655
++  mul_tree_f_adder_31_N20001 mul_tree_N338283 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_31_U1         mul_tree_f_adder_31_N20549
++  mul_tree_f_adder_31_N20524 mul_tree_N345432 $G_DPWR $G_DGND OR2
+X_mul_tree_f_adder_3_h_adder_0_U2         mul_tree_N84031 mul_tree_N84031
++  mul_tree_f_adder_3_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_3_h_adder_0_U1         mul_tree_N84031 mul_tree_N84031
++  mul_tree_f_adder_3_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_3_h_adder_1_U2         mul_tree_N85297
++  mul_tree_f_adder_3_N20001 mul_tree_f_adder_3_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_3_h_adder_1_U1         mul_tree_N85297
++  mul_tree_f_adder_3_N20001 mul_tree_N194570 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_3_U1         mul_tree_f_adder_3_N20549
++  mul_tree_f_adder_3_N20524 mul_tree_N86261 $G_DPWR $G_DGND OR2
+X_mul_tree_f_adder_28_h_adder_0_U2         mul_tree_N295779 mul_tree_N303318
++  mul_tree_f_adder_28_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_28_h_adder_0_U1         mul_tree_N295779 mul_tree_N303318
++  mul_tree_f_adder_28_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_28_h_adder_1_U2         mul_tree_N313312
++  mul_tree_f_adder_28_N20001 mul_tree_f_adder_28_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_28_h_adder_1_U1         mul_tree_N313312
++  mul_tree_f_adder_28_N20001 mul_tree_N362467 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_28_U1         mul_tree_f_adder_28_N20549
++  mul_tree_f_adder_28_N20524 mul_tree_N367094 $G_DPWR $G_DGND OR2
+X_mul_tree_f_adder_6_h_adder_0_U2         mul_tree_N66333 mul_tree_N66333
++  mul_tree_f_adder_6_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_6_h_adder_0_U1         mul_tree_N66333 mul_tree_N66333
++  mul_tree_f_adder_6_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_6_h_adder_1_U2         mul_tree_N65880
++  mul_tree_f_adder_6_N20001 mul_tree_f_adder_6_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_6_h_adder_1_U1         mul_tree_N65880
++  mul_tree_f_adder_6_N20001 mul_tree_N180189 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_6_U1         mul_tree_f_adder_6_N20549
++  mul_tree_f_adder_6_N20524 mul_tree_N67704 $G_DPWR $G_DGND OR2
+X_mul_tree_f_adder_32_h_adder_0_U2         mul_tree_N252492 mul_tree_N254078
++  mul_tree_f_adder_32_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_32_h_adder_0_U1         mul_tree_N252492 mul_tree_N254078
++  mul_tree_f_adder_32_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_32_h_adder_1_U2         mul_tree_N265118
++  mul_tree_f_adder_32_N20001 mul_tree_f_adder_32_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_32_h_adder_1_U1         mul_tree_N265118
++  mul_tree_f_adder_32_N20001 mul_tree_N58594 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_32_U1         mul_tree_f_adder_32_N20549
++  mul_tree_f_adder_32_N20524 mul_tree_N340061 $G_DPWR $G_DGND OR2
+X_mul_tree_h_adder_6_U2         mul_tree_N219021 mul_tree_N216063
++  mul_tree_N49854  $G_DPWR $G_DGND AND2
+X_mul_tree_h_adder_6_U1         mul_tree_N219021 mul_tree_N216063
++  mul_tree_N36598 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_20_h_adder_0_U2         mul_tree_N195976 mul_tree_N198094
++  mul_tree_f_adder_20_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_20_h_adder_0_U1         mul_tree_N195976 mul_tree_N198094
++  mul_tree_f_adder_20_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_20_h_adder_1_U2         mul_tree_N70326
++  mul_tree_f_adder_20_N20001 mul_tree_f_adder_20_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_20_h_adder_1_U1         mul_tree_N70326
++  mul_tree_f_adder_20_N20001 mul_tree_N252492 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_20_U1         mul_tree_f_adder_20_N20549
++  mul_tree_f_adder_20_N20524 mul_tree_N286655 $G_DPWR $G_DGND OR2
+X_mul_tree_f_adder_7_h_adder_0_U2         mul_tree_N63637 mul_tree_N63637
++  mul_tree_f_adder_7_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_7_h_adder_0_U1         mul_tree_N63637 mul_tree_N63637
++  mul_tree_f_adder_7_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_7_h_adder_1_U2         mul_tree_N64978
++  mul_tree_f_adder_7_N20001 mul_tree_f_adder_7_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_7_h_adder_1_U1         mul_tree_N64978
++  mul_tree_f_adder_7_N20001 mul_tree_N177513 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_7_U1         mul_tree_f_adder_7_N20549
++  mul_tree_f_adder_7_N20524 mul_tree_N65880 $G_DPWR $G_DGND OR2
+X_mul_tree_f_adder_33_h_adder_0_U2         mul_tree_N141551 mul_tree_N250121
++  mul_tree_f_adder_33_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_33_h_adder_0_U1         mul_tree_N141551 mul_tree_N250121
++  mul_tree_f_adder_33_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_33_h_adder_1_U2         mul_tree_N245927
++  mul_tree_f_adder_33_N20001 mul_tree_f_adder_33_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_33_h_adder_1_U1         mul_tree_N245927
++  mul_tree_f_adder_33_N20001 mul_tree_N55264 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_33_U1         mul_tree_f_adder_33_N20549
++  mul_tree_f_adder_33_N20524 mul_tree_N56124 $G_DPWR $G_DGND OR2
+X_mul_tree_f_adder_21_h_adder_0_U2         mul_tree_N210390 mul_tree_N208922
++  mul_tree_f_adder_21_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_21_h_adder_0_U1         mul_tree_N210390 mul_tree_N208922
++  mul_tree_f_adder_21_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_21_h_adder_1_U2         mul_tree_N67704
++  mul_tree_f_adder_21_N20001 mul_tree_f_adder_21_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_21_h_adder_1_U1         mul_tree_N67704
++  mul_tree_f_adder_21_N20001 mul_tree_N250121 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_21_U1         mul_tree_f_adder_21_N20549
++  mul_tree_f_adder_21_N20524 mul_tree_N265118 $G_DPWR $G_DGND OR2
+X_mul_tree_f_adder_8_h_adder_0_U2         mul_tree_N34556 mul_tree_N34556
++  mul_tree_f_adder_8_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_8_h_adder_0_U1         mul_tree_N34556 mul_tree_N34556
++  mul_tree_f_adder_8_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_8_h_adder_1_U2         mul_tree_N32007
++  mul_tree_f_adder_8_N20001 mul_tree_f_adder_8_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_8_h_adder_1_U1         mul_tree_N32007
++  mul_tree_f_adder_8_N20001 mul_tree_N33659 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_8_U1         mul_tree_f_adder_8_N20549
++  mul_tree_f_adder_8_N20524 mul_tree_N64978 $G_DPWR $G_DGND OR2
+X_mul_tree_h_adder_5_U2         mul_tree_N163461 mul_tree_N159260
++  mul_tree_N60805  $G_DPWR $G_DGND AND2
+X_mul_tree_h_adder_5_U1         mul_tree_N163461 mul_tree_N159260
++  mul_tree_N141551 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_34_h_adder_0_U2         mul_tree_N235790 mul_tree_N226585
++  mul_tree_f_adder_34_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_34_h_adder_0_U1         mul_tree_N235790 mul_tree_N226585
++  mul_tree_f_adder_34_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_34_h_adder_1_U2         mul_tree_N232438
++  mul_tree_f_adder_34_N20001 mul_tree_f_adder_34_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_34_h_adder_1_U1         mul_tree_N232438
++  mul_tree_f_adder_34_N20001 mul_tree_N53147 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_34_U1         mul_tree_f_adder_34_N20549
++  mul_tree_f_adder_34_N20524 mul_tree_N53989 $G_DPWR $G_DGND OR2
+X_mul_tree_f_adder_22_h_adder_0_U2         mul_tree_N180189 mul_tree_N182445
++  mul_tree_f_adder_22_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_22_h_adder_0_U1         mul_tree_N180189 mul_tree_N182445
++  mul_tree_f_adder_22_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_22_h_adder_1_U2         mul_tree_N65880
++  mul_tree_f_adder_22_N20001 mul_tree_f_adder_22_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_22_h_adder_1_U1         mul_tree_N65880
++  mul_tree_f_adder_22_N20001 mul_tree_N235790 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_22_U1         mul_tree_f_adder_22_N20549
++  mul_tree_f_adder_22_N20524 mul_tree_N245927 $G_DPWR $G_DGND OR2
+X_mul_tree_f_adder_9_h_adder_0_U2         mul_tree_N27952 mul_tree_N27633
++  mul_tree_f_adder_9_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_9_h_adder_0_U1         mul_tree_N27952 mul_tree_N27633
++  mul_tree_f_adder_9_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_9_h_adder_1_U2         mul_tree_N27000
++  mul_tree_f_adder_9_N20001 mul_tree_f_adder_9_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_9_h_adder_1_U1         mul_tree_N27000
++  mul_tree_f_adder_9_N20001 mul_tree_N28273 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_9_U1         mul_tree_f_adder_9_N20549
++  mul_tree_f_adder_9_N20524 mul_tree_N32007 $G_DPWR $G_DGND OR2
+X_mul_tree_f_adder_23_h_adder_0_U2         mul_tree_N177513 mul_tree_N174869
++  mul_tree_f_adder_23_N20524  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_23_h_adder_0_U1         mul_tree_N177513 mul_tree_N174869
++  mul_tree_f_adder_23_N20001 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_23_h_adder_1_U2         mul_tree_N64978
++  mul_tree_f_adder_23_N20001 mul_tree_f_adder_23_N20549  $G_DPWR $G_DGND AND2
+X_mul_tree_f_adder_23_h_adder_1_U1         mul_tree_N64978
++  mul_tree_f_adder_23_N20001 mul_tree_N223266 $G_DPWR $G_DGND XOR
+X_mul_tree_f_adder_23_U1         mul_tree_f_adder_23_N20549
++  mul_tree_f_adder_23_N20524 mul_tree_N232438 $G_DPWR $G_DGND OR2
+X_mul_tree_h_adder_4_U2         mul_tree_N96296 mul_tree_N96817 mul_tree_N92191
++   $G_DPWR $G_DGND AND2
+X_mul_tree_h_adder_4_U1         mul_tree_N96296 mul_tree_N96817 mul_tree_N93208
++  $G_DPWR $G_DGND XOR
+U_mul_DSTM5         STIM(8,11111111)
++ $G_DPWR $G_DGND
++ mul_P1T7 mul_P1T6 mul_P1T5 mul_P1T4 mul_P1T3 mul_P1T2 mul_P1T1 mul_P1T0 
++ IO_STM
++ IO_LEVEL=0
++  0s 10000110  
+X_mul_partial1_U32         MULTIPLIER3 MULTIPLICAND1 mul_partial1_N367330 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U24         MULTIPLIER2 MULTIPLICAND1 mul_partial1_N368126 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U63         MULTIPLIER7 MULTIPLICAND2 mul_H2 $G_DPWR $G_DGND
++  NAN2
+X_mul_partial1_U46         MULTIPLIER5 MULTIPLICAND3 mul_partial1_N367572 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U6         MULTIPLIER0 MULTIPLICAND3 mul_partial1_P0P3  $G_DPWR
++  $G_DGND AND2
+X_mul_partial1_U40         MULTIPLIER4 MULTIPLICAND1 mul_partial1_N368192 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U17         MULTIPLIER1 MULTIPLICAND0 mul_B0  $G_DPWR $G_DGND
++  AND2
+X_mul_partial1_U25         MULTIPLIER2 MULTIPLICAND0 mul_partial1_N368076 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U33         MULTIPLIER3 MULTIPLICAND0 mul_partial1_N367446 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U47         MULTIPLIER5 MULTIPLICAND2 mul_partial1_N367730 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U41         MULTIPLIER4 MULTIPLICAND0 mul_partial1_N367534 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U9         MULTIPLIER0 MULTIPLICAND0 mul_partial1_P0P0  $G_DPWR
++  $G_DGND AND2
+X_mul_partial1_U18         MULTIPLIER1 MULTIPLICAND7 mul_B7 $G_DPWR $G_DGND
++  NAN2
+X_mul_partial1_U26         MULTIPLIER2 MULTIPLICAND7 mul_partial1_N367514
++  $G_DPWR $G_DGND NAN2
+X_mul_partial1_U34         MULTIPLIER3 MULTIPLICAND7 mul_partial1_N367612
++  $G_DPWR $G_DGND NAN2
+X_mul_partial1_U48         MULTIPLIER5 MULTIPLICAND1 mul_partial1_N367802 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U54         MULTIPLIER6 MULTIPLICAND3 mul_partial1_N369962 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U42         MULTIPLIER4 MULTIPLICAND7 mul_partial1_N367748
++  $G_DPWR $G_DGND NAN2
+U_mul_partial1_DSTM2         STIM(1,1)
++ $G_DPWR $G_DGND
++ mul_H8 
++ IO_STM
++ IO_LEVEL=0
++  0s 1  
+X_mul_partial1_U10         MULTIPLIER0 MULTIPLICAND7 mul_partial1_P0P7 $G_DPWR
++  $G_DGND NAN2
+X_mul_partial1_U58         MULTIPLIER7 MULTIPLICAND7 mul_H7  $G_DPWR $G_DGND
++  AND2
+X_mul_partial1_U66         MULTIPLIER7 MULTIPLICAND0 mul_H0 $G_DPWR $G_DGND
++  NAN2
+X_mul_partial1_U11         MULTIPLIER1 MULTIPLICAND6 mul_B6  $G_DPWR $G_DGND
++  AND2
+X_mul_partial1_U49         MULTIPLIER5 MULTIPLICAND0 mul_partial1_N367916 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U55         MULTIPLIER6 MULTIPLICAND2 mul_partial1_N369680 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U3         MULTIPLIER0 MULTIPLICAND6 mul_partial1_P0P6  $G_DPWR
++  $G_DGND AND2
+X_mul_partial1_U60         MULTIPLIER7 MULTIPLICAND5 mul_H5 $G_DPWR $G_DGND
++  NAN2
+X_mul_partial1_U59         MULTIPLIER7 MULTIPLICAND6 mul_H6 $G_DPWR $G_DGND
++  NAN2
+X_mul_partial1_U7         MULTIPLIER0 MULTIPLICAND2 mul_partial1_P0P2  $G_DPWR
++  $G_DGND AND2
+X_mul_partial1_U12         MULTIPLIER1 MULTIPLICAND5 mul_B5  $G_DPWR $G_DGND
++  AND2
+X_mul_partial1_U56         MULTIPLIER6 MULTIPLICAND1 mul_partial1_N369360 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U50         MULTIPLIER5 MULTIPLICAND7 mul_partial1_N367814
++  $G_DPWR $G_DGND NAN2
+X_mul_partial1_U19         MULTIPLIER2 MULTIPLICAND6 mul_partial1_N368814 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U13         MULTIPLIER1 MULTIPLICAND4 mul_B4  $G_DPWR $G_DGND
++  AND2
+X_mul_partial1_U4         MULTIPLIER0 MULTIPLICAND5 mul_partial1_P0P5  $G_DPWR
++  $G_DGND AND2
+X_mul_partial1_U61         MULTIPLIER7 MULTIPLICAND4 mul_H4 $G_DPWR $G_DGND
++  NAN2
+X_mul_partial1_U27         MULTIPLIER3 MULTIPLICAND6 mul_partial1_N369078 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U57         MULTIPLIER6 MULTIPLICAND0 mul_partial1_N369088 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U62         MULTIPLIER7 MULTIPLICAND3 mul_H3 $G_DPWR $G_DGND
++  NAN2
+X_mul_partial1_U35         MULTIPLIER4 MULTIPLICAND6 mul_partial1_N367686 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U20         MULTIPLIER2 MULTIPLICAND5 mul_partial1_N368562 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U28         MULTIPLIER3 MULTIPLICAND5 mul_partial1_N369388 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U64         MULTIPLIER6 MULTIPLICAND7 mul_partial1_N367910
++  $G_DPWR $G_DGND NAN2
+X_mul_partial1_U8         MULTIPLIER0 MULTIPLICAND1 mul_partial1_P0P1  $G_DPWR
++  $G_DGND AND2
+X_mul_partial1_U36         MULTIPLIER4 MULTIPLICAND5 mul_partial1_N367784 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U14         MULTIPLIER1 MULTIPLICAND3 mul_B3  $G_DPWR $G_DGND
++  AND2
+X_mul_partial1_U43         MULTIPLIER5 MULTIPLICAND6 mul_partial1_N367304 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U51         MULTIPLIER6 MULTIPLICAND6 mul_partial1_N367130 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U29         MULTIPLIER3 MULTIPLICAND4 mul_partial1_N369776 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U21         MULTIPLIER2 MULTIPLICAND4 mul_partial1_N368288 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U37         MULTIPLIER4 MULTIPLICAND4 mul_partial1_N367884 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U52         MULTIPLIER6 MULTIPLICAND5 mul_partial1_N367068 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U30         MULTIPLIER3 MULTIPLICAND3 mul_partial1_N370030 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U65         MULTIPLIER7 MULTIPLICAND1 mul_H1 $G_DPWR $G_DGND
++  NAN2
+X_mul_partial1_U22         MULTIPLIER2 MULTIPLICAND3 mul_partial1_N368246 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U44         MULTIPLIER5 MULTIPLICAND5 mul_partial1_N367402 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U5         MULTIPLIER0 MULTIPLICAND4 mul_partial1_P0P4  $G_DPWR
++  $G_DGND AND2
+X_mul_partial1_U38         MULTIPLIER4 MULTIPLICAND3 mul_partial1_N368042 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U15         MULTIPLIER1 MULTIPLICAND2 mul_B2  $G_DPWR $G_DGND
++  AND2
+U_mul_partial1_DSTM3         STIM(1,1)
++ $G_DPWR $G_DGND
++ mul_partial1_P0P8 
++ IO_STM
++ IO_LEVEL=0
++  0s 1  
+X_mul_partial1_U53         MULTIPLIER6 MULTIPLICAND4 mul_partial1_N370084 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U31         MULTIPLIER3 MULTIPLICAND2 mul_partial1_N370114 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U23         MULTIPLIER2 MULTIPLICAND2 mul_partial1_N368182 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U45         MULTIPLIER5 MULTIPLICAND4 mul_partial1_N367476 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U39         MULTIPLIER4 MULTIPLICAND2 mul_partial1_N368132 
++  $G_DPWR $G_DGND AND2
+X_mul_partial1_U16         MULTIPLIER1 MULTIPLICAND1 mul_B1  $G_DPWR $G_DGND
++  AND2
+X_mul_propagate1_f_adder_39_h_adder_0_U2         mul_FPA8 mul_FPB3
++  mul_propagate1_f_adder_39_N20524  $G_DPWR $G_DGND AND2
+X_mul_propagate1_f_adder_39_h_adder_0_U1         mul_FPA8 mul_FPB3
++  mul_propagate1_f_adder_39_N20001 $G_DPWR $G_DGND XOR
+X_mul_propagate1_f_adder_39_h_adder_1_U2         mul_propagate1_N51120
++  mul_propagate1_f_adder_39_N20001 mul_propagate1_f_adder_39_N20549  $G_DPWR
++  $G_DGND AND2
+X_mul_propagate1_f_adder_39_h_adder_1_U1         mul_propagate1_N51120
++  mul_propagate1_f_adder_39_N20001 PRODUCT8 $G_DPWR $G_DGND XOR
+X_mul_propagate1_f_adder_39_U1         mul_propagate1_f_adder_39_N20549
++  mul_propagate1_f_adder_39_N20524 mul_propagate1_N51579 $G_DPWR $G_DGND OR2
+X_mul_propagate1_f_adder_43_h_adder_0_U2         mul_FPA12 mul_FPB7
++  mul_propagate1_f_adder_43_N20524  $G_DPWR $G_DGND AND2
+X_mul_propagate1_f_adder_43_h_adder_0_U1         mul_FPA12 mul_FPB7
++  mul_propagate1_f_adder_43_N20001 $G_DPWR $G_DGND XOR
+X_mul_propagate1_f_adder_43_h_adder_1_U2         mul_propagate1_N52525
++  mul_propagate1_f_adder_43_N20001 mul_propagate1_f_adder_43_N20549  $G_DPWR
++  $G_DGND AND2
+X_mul_propagate1_f_adder_43_h_adder_1_U1         mul_propagate1_N52525
++  mul_propagate1_f_adder_43_N20001 PRODUCT12 $G_DPWR $G_DGND XOR
+X_mul_propagate1_f_adder_43_U1         mul_propagate1_f_adder_43_N20549
++  mul_propagate1_f_adder_43_N20524 mul_propagate1_N52765 $G_DPWR $G_DGND OR2
+X_mul_propagate1_f_adder_38_h_adder_0_U2         mul_FPA7 mul_FPB2
++  mul_propagate1_f_adder_38_N20524  $G_DPWR $G_DGND AND2
+X_mul_propagate1_f_adder_38_h_adder_0_U1         mul_FPA7 mul_FPB2
++  mul_propagate1_f_adder_38_N20001 $G_DPWR $G_DGND XOR
+X_mul_propagate1_f_adder_38_h_adder_1_U2         mul_propagate1_N50893
++  mul_propagate1_f_adder_38_N20001 mul_propagate1_f_adder_38_N20549  $G_DPWR
++  $G_DGND AND2
+X_mul_propagate1_f_adder_38_h_adder_1_U1         mul_propagate1_N50893
++  mul_propagate1_f_adder_38_N20001 PRODUCT7 $G_DPWR $G_DGND XOR
+X_mul_propagate1_f_adder_38_U1         mul_propagate1_f_adder_38_N20549
++  mul_propagate1_f_adder_38_N20524 mul_propagate1_N51120 $G_DPWR $G_DGND OR2
+X_mul_propagate1_f_adder_42_h_adder_0_U2         mul_FPA11 mul_FPB6
++  mul_propagate1_f_adder_42_N20524  $G_DPWR $G_DGND AND2
+X_mul_propagate1_f_adder_42_h_adder_0_U1         mul_FPA11 mul_FPB6
++  mul_propagate1_f_adder_42_N20001 $G_DPWR $G_DGND XOR
+X_mul_propagate1_f_adder_42_h_adder_1_U2         mul_propagate1_N52050
++  mul_propagate1_f_adder_42_N20001 mul_propagate1_f_adder_42_N20549  $G_DPWR
++  $G_DGND AND2
+X_mul_propagate1_f_adder_42_h_adder_1_U1         mul_propagate1_N52050
++  mul_propagate1_f_adder_42_N20001 PRODUCT11 $G_DPWR $G_DGND XOR
+X_mul_propagate1_f_adder_42_U1         mul_propagate1_f_adder_42_N20549
++  mul_propagate1_f_adder_42_N20524 mul_propagate1_N52525 $G_DPWR $G_DGND OR2
+X_mul_propagate1_U2         mul_propagate1_N53921 mul_propagate1_N56208
++  PRODUCT15 $G_DPWR $G_DGND XOR
+X_mul_propagate1_f_adder_41_h_adder_0_U2         mul_FPA10 mul_FPB5
++  mul_propagate1_f_adder_41_N20524  $G_DPWR $G_DGND AND2
+X_mul_propagate1_f_adder_41_h_adder_0_U1         mul_FPA10 mul_FPB5
++  mul_propagate1_f_adder_41_N20001 $G_DPWR $G_DGND XOR
+X_mul_propagate1_f_adder_41_h_adder_1_U2         mul_propagate1_N51811
++  mul_propagate1_f_adder_41_N20001 mul_propagate1_f_adder_41_N20549  $G_DPWR
++  $G_DGND AND2
+X_mul_propagate1_f_adder_41_h_adder_1_U1         mul_propagate1_N51811
++  mul_propagate1_f_adder_41_N20001 PRODUCT10 $G_DPWR $G_DGND XOR
+X_mul_propagate1_f_adder_41_U1         mul_propagate1_f_adder_41_N20549
++  mul_propagate1_f_adder_41_N20524 mul_propagate1_N52050 $G_DPWR $G_DGND OR2
+X_mul_propagate1_f_adder_45_h_adder_0_U2         mul_FPA14 mul_FPB9
++  mul_propagate1_f_adder_45_N20524  $G_DPWR $G_DGND AND2
+X_mul_propagate1_f_adder_45_h_adder_0_U1         mul_FPA14 mul_FPB9
++  mul_propagate1_f_adder_45_N20001 $G_DPWR $G_DGND XOR
+X_mul_propagate1_f_adder_45_h_adder_1_U2         mul_propagate1_N53007
++  mul_propagate1_f_adder_45_N20001 mul_propagate1_f_adder_45_N20549  $G_DPWR
++  $G_DGND AND2
+X_mul_propagate1_f_adder_45_h_adder_1_U1         mul_propagate1_N53007
++  mul_propagate1_f_adder_45_N20001 PRODUCT14 $G_DPWR $G_DGND XOR
+X_mul_propagate1_f_adder_45_U1         mul_propagate1_f_adder_45_N20549
++  mul_propagate1_f_adder_45_N20524 mul_propagate1_N53921 $G_DPWR $G_DGND OR2
+X_mul_propagate1_U1         mul_FPB10 mul_FPA15 mul_propagate1_N56208 $G_DPWR
++  $G_DGND XOR
+X_mul_propagate1_h_adder_15_U2         mul_FPA5 mul_FPB0 mul_propagate1_N50668 
++  $G_DPWR $G_DGND AND2
+X_mul_propagate1_h_adder_15_U1         mul_FPA5 mul_FPB0 PRODUCT5 $G_DPWR
++  $G_DGND XOR
+X_mul_propagate1_f_adder_40_h_adder_0_U2         mul_FPA9 mul_FPB4
++  mul_propagate1_f_adder_40_N20524  $G_DPWR $G_DGND AND2
+X_mul_propagate1_f_adder_40_h_adder_0_U1         mul_FPA9 mul_FPB4
++  mul_propagate1_f_adder_40_N20001 $G_DPWR $G_DGND XOR
+X_mul_propagate1_f_adder_40_h_adder_1_U2         mul_propagate1_N51579
++  mul_propagate1_f_adder_40_N20001 mul_propagate1_f_adder_40_N20549  $G_DPWR
++  $G_DGND AND2
+X_mul_propagate1_f_adder_40_h_adder_1_U1         mul_propagate1_N51579
++  mul_propagate1_f_adder_40_N20001 PRODUCT9 $G_DPWR $G_DGND XOR
+X_mul_propagate1_f_adder_40_U1         mul_propagate1_f_adder_40_N20549
++  mul_propagate1_f_adder_40_N20524 mul_propagate1_N51811 $G_DPWR $G_DGND OR2
+X_mul_propagate1_f_adder_44_h_adder_0_U2         mul_FPA13 mul_FPB8
++  mul_propagate1_f_adder_44_N20524  $G_DPWR $G_DGND AND2
+X_mul_propagate1_f_adder_44_h_adder_0_U1         mul_FPA13 mul_FPB8
++  mul_propagate1_f_adder_44_N20001 $G_DPWR $G_DGND XOR
+X_mul_propagate1_f_adder_44_h_adder_1_U2         mul_propagate1_N52765
++  mul_propagate1_f_adder_44_N20001 mul_propagate1_f_adder_44_N20549  $G_DPWR
++  $G_DGND AND2
+X_mul_propagate1_f_adder_44_h_adder_1_U1         mul_propagate1_N52765
++  mul_propagate1_f_adder_44_N20001 PRODUCT13 $G_DPWR $G_DGND XOR
+X_mul_propagate1_f_adder_44_U1         mul_propagate1_f_adder_44_N20549
++  mul_propagate1_f_adder_44_N20524 mul_propagate1_N53007 $G_DPWR $G_DGND OR2
+X_mul_propagate1_f_adder_37_h_adder_0_U2         mul_FPA6 mul_FPB1
++  mul_propagate1_f_adder_37_N20524  $G_DPWR $G_DGND AND2
+X_mul_propagate1_f_adder_37_h_adder_0_U1         mul_FPA6 mul_FPB1
++  mul_propagate1_f_adder_37_N20001 $G_DPWR $G_DGND XOR
+X_mul_propagate1_f_adder_37_h_adder_1_U2         mul_propagate1_N50668
++  mul_propagate1_f_adder_37_N20001 mul_propagate1_f_adder_37_N20549  $G_DPWR
++  $G_DGND AND2
+X_mul_propagate1_f_adder_37_h_adder_1_U1         mul_propagate1_N50668
++  mul_propagate1_f_adder_37_N20001 PRODUCT6 $G_DPWR $G_DGND XOR
+X_mul_propagate1_f_adder_37_U1         mul_propagate1_f_adder_37_N20549
++  mul_propagate1_f_adder_37_N20524 mul_propagate1_N50893 $G_DPWR $G_DGND OR2
+U_mul_DSTM4         STIM(8,11111111)
++ $G_DPWR $G_DGND
++ mul_P0T8 mul_P0T7 mul_P0T6 mul_P0T5 mul_P0T4 mul_P0T3 mul_P0T2 mul_P0T1 
++ IO_STM
++ IO_LEVEL=0
++  0s 110000000  
+------$
+ERROR -- Invalid value
+-----------------$
+ERROR -- Bad state value(s)
+U_DSTM1         STIM(8,11111111)
++ $G_DPWR $G_DGND
++ MULTIPLICAND7 MULTIPLICAND6 MULTIPLICAND5 MULTIPLICAND4 MULTIPLICAND3
++  MULTIPLICAND2 MULTIPLICAND1 MULTIPLICAND0 
++ IO_STM
++ IO_LEVEL=0
++  0s 00000110  
+U_DSTM2         STIM(8,11111111)
++ $G_DPWR $G_DGND
++ MULTIPLIER7 MULTIPLIER6 MULTIPLIER5 MULTIPLIER4 MULTIPLIER3 MULTIPLIER2
++  MULTIPLIER1 MULTIPLIER0 
++ IO_STM
++ IO_LEVEL=0
++  0s 11111110  
+
+**** RESUMING mul.cir ****
+.END
+

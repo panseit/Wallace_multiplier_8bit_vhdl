@@ -1,0 +1,14 @@
+# Reading C:/modeltech64_10.1c/tcl/vsim/pref.tcl 
+# //  ModelSim SE-64 10.1c Jul 28 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile {C:/Users/Panseit/Dropbox/VLSI/VLSI II/Project_Wallace_multiplier_8bit/Vhdl/Wallace_8bit.mpf} 
+# Loading project Wallace_8bit
+# Error opening H:/Project VLSI II/Vhdl/Wallace_8bit.vhd
+# Path name 'H:/Project VLSI II/Vhdl/Wallace_8bit.vhd' doesn't exist.

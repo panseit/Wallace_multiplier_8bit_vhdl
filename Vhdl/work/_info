@@ -1,0 +1,215 @@
+m255
+K3
+13
+cModel Technology
+dC:\modeltech64_10.1c\examples
+Ef_adder_1bit
+Z0 w1467559840
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dH:\Project VLSI II\Vhdl
+Z4 8H:/Project VLSI II/Vhdl/3rd_layer.vhd
+Z5 FH:/Project VLSI II/Vhdl/3rd_layer.vhd
+l0
+L4
+V?af0`;eBV_D3=A`P:]4MH2
+!s100 4TmjEk1MP9^Yn0ZO:PYT]0
+Z6 OL;C;10.1c;51
+32
+!i10b 1
+Z7 !s108 1467752571.923000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|H:/Project VLSI II/Vhdl/3rd_layer.vhd|
+Z9 !s107 H:/Project VLSI II/Vhdl/3rd_layer.vhd|
+Z10 o-work work -2002 -explicit
+Z11 tExplicit 1
+Af_adder_1bit_arch
+R1
+R2
+Z12 DEx4 work 12 f_adder_1bit 0 22 ?af0`;eBV_D3=A`P:]4MH2
+l18
+L13
+Z13 V5z18Cejd7PNR_3o<PM>Ai3
+Z14 !s100 `OM0Ej5DMC57JRlnE5SCB2
+R6
+32
+!i10b 1
+R7
+R8
+R9
+R10
+R11
+Eh_adder_1bit
+Z15 w1467559840
+R1
+R2
+R3
+R4
+R5
+l0
+L31
+V9:2QZR8<nd3QTiHHQ:L[l3
+!s100 PQQDNQUZ2`dPW95YZA7GT0
+R6
+32
+!i10b 1
+R7
+R8
+R9
+R10
+R11
+Ah_adder_1bit_arch
+R1
+R2
+Z16 DEx4 work 12 h_adder_1bit 0 22 9:2QZR8<nd3QTiHHQ:L[l3
+l44
+L39
+Z17 VNZ^UTEUG9;]5VWGEdW0Eo0
+Z18 !s100 YRgDnHl7Q8X>NLc;51_?n0
+R6
+32
+!i10b 1
+R7
+R8
+R9
+R10
+R11
+Emul
+Z19 w1467571822
+R1
+R2
+R3
+Z20 8H:/Project VLSI II/Vhdl/Wallace_8bit.vhd
+Z21 FH:/Project VLSI II/Vhdl/Wallace_8bit.vhd
+l0
+L5
+VTKz6V6H5N:Ie[6UZCWcZN0
+R6
+32
+Z22 !s108 1467752567.427000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|H:/Project VLSI II/Vhdl/Wallace_8bit.vhd|
+Z24 !s107 H:/Project VLSI II/Vhdl/Wallace_8bit.vhd|
+R10
+R11
+!s100 ?QWcC611_cQ3comMRN;3J3
+!i10b 1
+Amul_arch
+R1
+R2
+DEx4 work 3 mul 0 22 TKz6V6H5N:Ie[6UZCWcZN0
+l53
+L12
+V:Io:k4f1LU?@<eK6a^2_71
+R6
+32
+R22
+R23
+R24
+R10
+R11
+!s100 >JMVTjzkIbPS0eN4aG`]G2
+!i10b 1
+Epartial
+Z25 w1467579552
+R1
+R2
+R3
+Z26 8H:/Project VLSI II/Vhdl/2nd_layer.vhd
+Z27 FH:/Project VLSI II/Vhdl/2nd_layer.vhd
+l0
+L4
+VIeea9?2TMaoJ]ZLF^O_6h3
+R6
+32
+Z28 !s108 1467752568.139000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|H:/Project VLSI II/Vhdl/2nd_layer.vhd|
+Z30 !s107 H:/Project VLSI II/Vhdl/2nd_layer.vhd|
+R10
+R11
+!s100 @::FNbIJfJi<1?<D<FISd0
+!i10b 1
+Apartial_arch
+R1
+R2
+DEx4 work 7 partial 0 22 Ieea9?2TMaoJ]ZLF^O_6h3
+l20
+L18
+VP`de8ZO?B_kYN:O8`lgo[0
+!s100 ]Q2BLb4BSJ78A^X6PSfmR0
+R6
+32
+R28
+R29
+R30
+R10
+R11
+!i10b 1
+Epropagate
+R25
+R1
+R2
+R3
+R26
+R27
+l0
+L315
+VX0THJ>jBl3FofkRGf2Tj;2
+R6
+32
+R28
+R29
+R30
+R10
+R11
+!s100 n_kPg0ToXB0cmD3<5l@341
+!i10b 1
+Apropagate_arch
+R1
+R2
+DEx4 work 9 propagate 0 22 X0THJ>jBl3FofkRGf2Tj;2
+l341
+L322
+V];nIai`cGI^4?FfQIhM0J0
+!s100 MhZPS`Ra9jb_UcF1NUOUH2
+R6
+32
+R28
+R29
+R30
+R10
+R11
+!i10b 1
+Etree
+R25
+R1
+R2
+R3
+R26
+R27
+l0
+L88
+VES@?GALJ54c6O@53QiZ]00
+R6
+32
+R28
+R29
+R30
+R10
+R11
+!s100 >1eFQD[VFU@7>AdY=L4H63
+!i10b 1
+Atree_arch
+R1
+R2
+DEx4 work 4 tree 0 22 ES@?GALJ54c6O@53QiZ]00
+l145
+L102
+V7Ig^9iPHTYn<lG>ElA@Na3
+!s100 Mn_RJ;RhTiPz_TRF3K<;U0
+R6
+32
+R28
+R29
+R30
+R10
+R11
+!i10b 1

@@ -1,0 +1,283 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/vlsi2/lab5_2
+Ealu32
+Z0 w1467281145
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/vlsi2/project
+Z4 8C:\vlsi2\project\Wallace_8bit.vhd
+Z5 FC:\vlsi2\project\Wallace_8bit.vhd
+l0
+L5
+V5_9P0E:d_M^6W=417O2;a0
+!s100 7fI`nfcJAb_6o7e;]OPHd0
+Z6 OV;C;10.4b;61
+32
+Z7 !s110 1467281147
+!i10b 1
+Z8 !s108 1467281147.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\vlsi2\project\Wallace_8bit.vhd|
+Z10 !s107 C:\vlsi2\project\Wallace_8bit.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1
+Aalu32_arch
+R1
+R2
+DEx4 work 5 alu32 0 22 5_9P0E:d_M^6W=417O2;a0
+l50
+L14
+VEKgK6Kd3=I7WAjI;Ef8K41
+!s100 BMXzOVo8BWS`QQ71inYg?2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ef_adder_1bit
+Z13 w1467559838
+R1
+R2
+R3
+Z14 8C:/vlsi2/project/3rd_layer.vhd
+Z15 FC:/vlsi2/project/3rd_layer.vhd
+l0
+L4
+Vc>8hlHzKi9H2272_eE2A32
+!s100 M@]kbeEcNV<5Q5LnWz9]M2
+R6
+32
+Z16 !s110 1467579555
+!i10b 1
+Z17 !s108 1467579555.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/vlsi2/project/3rd_layer.vhd|
+Z19 !s107 C:/vlsi2/project/3rd_layer.vhd|
+!i113 1
+R11
+R12
+Af_adder_1bit_arch
+R1
+R2
+Z20 DEx4 work 12 f_adder_1bit 0 22 c>8hlHzKi9H2272_eE2A32
+l18
+L13
+Z21 VW8EnJ8E?FPg6O1KK8H0oK0
+Z22 !s100 cXOc@5lGPR5TjFz8ITkU=2
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Eh_adder_1bit
+R13
+R1
+R2
+R3
+R14
+R15
+l0
+L31
+V1ghDanLZFaBFLXd5=k5d;3
+!s100 IZlWYU>[aJLdAk3n^3`1X3
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Ah_adder_1bit_arch
+R1
+R2
+Z23 DEx4 work 12 h_adder_1bit 0 22 1ghDanLZFaBFLXd5=k5d;3
+l44
+L39
+Z24 V:ElO;Ej4;OXlna]IUkP<P3
+Z25 !s100 C>keD5b[CXWkzn`Z=b51z1
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Emul
+Z26 w1467571820
+R1
+R2
+R3
+Z27 8C:/vlsi2/project/Wallace_8bit.vhd
+Z28 FC:/vlsi2/project/Wallace_8bit.vhd
+l0
+L5
+VYb;[LL><Ae<f6I6UeO7z60
+!s100 `zN]eKP0`LF5k_bMo?>LU1
+R6
+32
+R16
+!i10b 1
+R17
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/vlsi2/project/Wallace_8bit.vhd|
+Z30 !s107 C:/vlsi2/project/Wallace_8bit.vhd|
+!i113 1
+R11
+R12
+Amul_arch
+R1
+R2
+DEx4 work 3 mul 0 22 Yb;[LL><Ae<f6I6UeO7z60
+l53
+L12
+VOH@FiSUGf1UL88n8L1Zkc1
+!s100 QVT^B3i^zIi7a:<T[UcP61
+R6
+32
+R16
+!i10b 1
+R17
+R29
+R30
+!i113 1
+R11
+R12
+Epartial
+Z31 w1467579550
+R1
+R2
+R3
+Z32 8C:\vlsi2\project\2nd_layer.vhd
+Z33 FC:\vlsi2\project\2nd_layer.vhd
+l0
+L4
+V1_nhVVnZX;AdR]EARJdJ11
+!s100 [l@@AZFel:60IA:;Q7@4I0
+R6
+32
+R16
+!i10b 1
+R17
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\vlsi2\project\2nd_layer.vhd|
+Z35 !s107 C:\vlsi2\project\2nd_layer.vhd|
+!i113 1
+R11
+R12
+Apartial_arch
+R1
+R2
+DEx4 work 7 partial 0 22 1_nhVVnZX;AdR]EARJdJ11
+l20
+L18
+VM5QZW:eUmXHjHMdKR9O^b3
+!s100 L8D6OKXHfY5QTYB1HD[OF2
+R6
+32
+R16
+!i10b 1
+R17
+R34
+R35
+!i113 1
+R11
+R12
+Epropagate
+R31
+R1
+R2
+R3
+R32
+R33
+l0
+L315
+VAM3cd0Y>L>b1JlQG?MjgL0
+!s100 S3CELj68_lWH:RBJ;O]eI2
+R6
+32
+R16
+!i10b 1
+R17
+R34
+R35
+!i113 1
+R11
+R12
+Apropagate_arch
+R1
+R2
+DEx4 work 9 propagate 0 22 AM3cd0Y>L>b1JlQG?MjgL0
+l341
+L322
+VLNfmnd:n45SzI6j6f;mVF3
+!s100 am]?7YYWJ[LgfV=z<iT4A0
+R6
+32
+R16
+!i10b 1
+R17
+R34
+R35
+!i113 1
+R11
+R12
+Etree
+R31
+R1
+R2
+R3
+R32
+R33
+l0
+L88
+V1oV]]UoAn6NTAi91m1[^G2
+!s100 Xj3jg<>L@8?hYUUE`BVXZ1
+R6
+32
+R16
+!i10b 1
+R17
+R34
+R35
+!i113 1
+R11
+R12
+Atree_arch
+R1
+R2
+DEx4 work 4 tree 0 22 1oV]]UoAn6NTAi91m1[^G2
+l145
+L102
+VbK:[IhjT06hP5;HMY7dHB2
+!s100 Vm:`4Y02lkVoez=607_FN2
+R6
+32
+R16
+!i10b 1
+R17
+R34
+R35
+!i113 1
+R11
+R12

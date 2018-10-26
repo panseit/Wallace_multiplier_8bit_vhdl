@@ -1,0 +1,31 @@
+C:/vlsi2/project/Wallace_8bit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/vlsi2/project/Wallace_8bit.vhd
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mul
+-- Compiling architecture mul_arch of mul
+
+} {} {}} C:/vlsi2/project/2nd_layer.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\vlsi2\project\2nd_layer.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity partial
+-- Compiling architecture partial_arch of partial
+-- Compiling entity tree
+-- Compiling architecture tree_arch of tree
+-- Compiling entity propagate
+-- Compiling architecture propagate_arch of propagate
+
+} {} {}} C:/vlsi2/project/3rd_layer.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/vlsi2/project/3rd_layer.vhd
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity f_adder_1bit
+-- Compiling architecture f_adder_1bit_arch of f_adder_1bit
+-- Compiling entity h_adder_1bit
+-- Compiling architecture h_adder_1bit_arch of h_adder_1bit
+
+} {} {}}
